@@ -9,7 +9,7 @@ include("conexaobanco.php");
            $senha=($_POST["senha"]);
            
            
-           $sql="SELECT nome FROM cadastro WHERE email='$email' AND senha='$senha'";
+           $sql="SELECT email FROM cadastro WHERE email='$email' AND senha='$senha'";
            $resultado=mysqli_query($conexao, $sql);
            $linhas=mysqli_affected_rows($conexao);
            

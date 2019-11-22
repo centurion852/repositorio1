@@ -1,7 +1,3 @@
-<?php
-ob_start();
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -23,9 +19,12 @@ ob_start();
 
 
         </style>
-
-<div class="container-fluid bg-light text-light">
+        <div class="container-fluid bg-light text-light">
             <div class="row p-2">
+                <div class="mx-auto"><img  src="imagens/logo.png" height="50px" width="50px"></div>
+                <div class="mr-0">
+                        <a class="btn btn-outline-dark py-0 my-3 botao" href="logout.php">Sair</a>
+                </div>
                 <div class="text-dark text-center float-left mt-2">              
                     <h3>
                         <?php
@@ -39,32 +38,11 @@ ob_start();
                         ?>
                     </h3>
                 </div>
-
-                
-        <div class="container-fluid bg-light text-light">
-            <div class="row p-2">
-                <div class="mx-auto"><img  src="imagens/logo.png" height="50px" width="50px"></div>
-                <div class="mr-0">
-                        <a class="btn btn-outline-dark py-0 my-3 botao" href="logout.php">Sair</a>
-                </div>
             </div>
         </div>
         <div class="mx-auto mt-3 text-center">
             <img src="imagens/logo-lol.png" height="300px" width="700px" class="mx-auto">
         </div>
-        
-      
-             
-                
-  
-
-
-
-
-            </div>
-        </div>
-        
-
         <div class="container">
             <div class="row">
                 <div class="col text-center mx-auto">
@@ -82,9 +60,7 @@ ob_start();
             </div>
 
         </div>
-
-
-
+        
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

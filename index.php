@@ -47,15 +47,15 @@
             <div class="row">
                 <div class="col text-center mx-auto">
                     <img src="imagens/times-logo.jfif" height="200px" width="350px">
-                    <a href="tela_times.html" class="text-light timelink letras">Principais times</a>
+                    <a href="tela_times.php" class="text-light timelink letras">Principais times</a>
                 </div>
                 <div class="col text-center mx-auto">
                     <img src="imagens/jogadores.jpg" height="200px" width="350px">
-                    <a href="tela_jogadores.html" class="text-light timelink letras">Principais jogadores</a>
+                    <a href="tela_jogadores.php" class="text-light timelink letras">Principais jogadores</a>
                 </div>
                 <div class="col text-center mx-auto">
                     <img src="imagens/ligas.jpg" height="200px" width="350px">
-                    <a href="tela_ligas.html" class="text-light timelink letras">Principais ligas</a>
+                    <a href="tela_ligas.php" class="text-light timelink letras">Principais ligas</a>
                 </div>
             </div>
 
